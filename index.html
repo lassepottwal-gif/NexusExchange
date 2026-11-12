@@ -1171,8 +1171,8 @@ html { overflow-y: scroll; scrollbar-gutter: stable; }
           }
 
           const direction = Number(s.trendDirection);
-          // Kurs 1: -2 % bis +5 %.
-          // Kurs 2: -5 % bis +2 %.
+          // Kurs 1: -2 % bis +15 %.
+          // Kurs 2: -15 % bis +5 %.
           const movementPercent = direction === 1
             ? rnd(-2, 5)
             : rnd(-5, 2);
